@@ -1,0 +1,15 @@
+{
+  "split": "dev",
+  "questions_per_task": {
+    "dev": 20,
+    "eval": 50
+  },
+  "repeats": 1,
+  "corpus_size": 2000,
+  "methods": ["A", "B", "C", "D"],
+  "retrieve_k": 50,
+  "evidence_k": 5,
+  "run_retrieval": true,
+  "run_generation": true,
+  "save_raw_logs": true
+}

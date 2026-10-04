@@ -1,0 +1,20 @@
+{
+  "reference_run": "results/parallel_20261004T100028_2af782b8",
+  "corpus_size": 2000,
+  "group_size": 20,
+  "selection_k": 5,
+  "evidence_k": 5,
+  "descriptor_token_targets": [180, 360, 720],
+  "descriptor_length_mode": "target_band",
+  "descriptor_max_output_tokens": 3200,
+  "descriptor_input_tokens_limit": 32768,
+  "descriptor_preparation_workers": 4,
+  "provider": "jev",
+  "questions_per_task": 20,
+  "http_workers": 4,
+  "max_calls_per_retrieval": 32,
+  "max_llm_calls": 320,
+  "max_jev_http_calls": 1800,
+  "seed": 20261004,
+  "scope": "Development-only length treatment. Fixed group membership, routing prompts, model versions, K and final evidence budget. All three targets use one new common preparation prompt and fresh randomized retrieval. Prior short-prompt results are historical context only."
+}

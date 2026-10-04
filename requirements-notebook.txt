@@ -1,0 +1,22 @@
+# Installed environment; Python 3.14.6, native Windows, CUDA 12.8.
+# Install torch from its CUDA wheel index (see README.md).
+torch==2.11.0+cu128
+transformers==4.57.6
+huggingface_hub[cli]==0.36.2
+numpy==2.5.3
+pyarrow==24.0.0
+sentencepiece==0.2.2
+protobuf==7.36.2
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.1
+ipykernel==7.4.0
+pandas==3.0.6
+matplotlib==3.11.2
+openai==2.54.0
+python-dotenv==1.2.4
+tiktoken==0.14.0
+pytest==9.1.1
+requests==2.34.2
+httpx==0.28.1
+laya==0.3.26

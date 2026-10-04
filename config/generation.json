@@ -1,0 +1,21 @@
+{
+  "provider": "openai",
+  "model": "gpt-6-luna",
+  "model_source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+  "verified_date": "2026-10-03",
+  "reasoning_effort": "none",
+  "temperature": 0,
+  "service_tier": "default",
+  "max_output_tokens": 256,
+  "encoding_name": "o200k_base",
+  "tokenizer_note": "explicit text-budget proxy; gpt-6-luna is not registered in local tiktoken. Billable tokens come only from API usage.",
+  "prices": {
+    "input_usd_per_million": 0.10,
+    "cached_input_usd_per_million": 0.01,
+    "cache_write_usd_per_million": 0.125,
+    "output_usd_per_million": 0.50,
+    "date": "2026-10-03",
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "scope": "Standard global processing, <=272K input; estimated usage charge, not an invoice"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "model": "jev-1.13.0",
+  "model_source": "https://docs.typesafe.ai/models",
+  "verified_date": "2026-10-03",
+  "request_max_bytes": 48000,
+  "state_question_max_bytes": 24000,
+  "questions_per_request": 32,
+  "timeout_seconds": 30,
+  "prices": {
+    "input_usd_per_million": 0.042,
+    "output_usd_per_million": 0.0,
+    "source": "https://docs.typesafe.ai/models",
+    "date": "2026-10-03"
+  },
+  "prepare": {
+    "classification_batch_size": 16,
+    "alternative_placement_probability": 0.20,
+    "group_size": 8,
+    "descriptor_words": 24,
+    "max_api_calls": 512
+  },
+  "search": {
+    "branch_threshold": 0.45,
+    "coverage_threshold": 0.95,
+    "minimum_evidence_score": 1.5,
+    "frontier_width": 4,
+    "max_visited_nodes": 256,
+    "max_scored_passages": 128,
+    "max_recovery_nodes": 8,
+    "max_api_calls": 32,
+    "evidence_text_tokens": 2000,
+    "encoding_name": "o200k_base"
+  }
+}

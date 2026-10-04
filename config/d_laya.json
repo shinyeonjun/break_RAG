@@ -1,0 +1,26 @@
+{
+  "model": {
+    "repo": "convaiinnovations/laya-multilingual",
+    "revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+    "library": "laya",
+    "library_version": "0.3.26",
+    "max_context_tokens": 8192
+  },
+  "device": "same_as_ab",
+  "backend": "eager",
+  "cuda_amp": "fp16",
+  "max_len": 8192,
+  "head_max_len": 256,
+  "search": {
+    "branch_threshold": 0.5,
+    "coverage_threshold": 0.5,
+    "minimum_evidence_score": 2.0,
+    "frontier_width": 4,
+    "max_visited_nodes": 256,
+    "max_scored_passages": 128,
+    "max_decision_calls": 32,
+    "max_recovery_nodes": 8,
+    "evidence_text_tokens": 2000,
+    "encoding_name": "o200k_base"
+  }
+}

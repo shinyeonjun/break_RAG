@@ -1,0 +1,19 @@
+{
+  "corpus_size": 2000,
+  "group_sizes": [20, 50],
+  "selection_budgets": [1, 3, 5],
+  "questions_per_task": {"dev": 20, "eval": 10},
+  "evidence_k": 5,
+  "descriptor_target_tokens": 180,
+  "descriptor_max_output_tokens": 600,
+  "descriptor_max_output_tokens_by_group_size": {"50": 1600},
+  "descriptor_input_tokens_limit": 32768,
+  "http_workers": 4,
+  "max_calls_per_retrieval": 32,
+  "max_llm_calls": 300,
+  "max_jev_http_calls": 1500,
+  "seed": 20261004,
+  "selection_rule": "Meet development B complete-evidence rate, then minimize judgment input proxy; if infeasible, maximize complete-evidence rate first.",
+  "evaluation_policy": "Freeze both policies before loading evaluation labels. Exclude previously evaluated question IDs. Evaluation is exploratory on a gold-inclusive reduced corpus.",
+  "preparation_policy": "Reuse the existing query-independent Jev classification to order passages; generate new group descriptions from original text only. Record inherited preparation cost separately."
+}

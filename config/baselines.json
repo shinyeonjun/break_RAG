@@ -1,0 +1,42 @@
+{
+  "seed": 20261003,
+  "bergen_revision": "eb8ec046eb6cf08be95b035b2d3bcc4b241ff212",
+  "qa": {
+    "repo": "facebook/kilt_tasks",
+    "revision": "0f7881c6bf693742af91a31b4d8f827db2f41233",
+    "dev_count": 100,
+    "eval_count": 500,
+    "tasks": {
+      "nq": {"dev_count": 100, "eval_count": 500, "min_articles": 1},
+      "hotpotqa": {"dev_count": 100, "eval_count": 500, "min_articles": 2}
+    }
+  },
+  "wikipedia": {
+    "url": "https://dl.fbaipublicfiles.com/KILT/kilt_knowledgesource.json",
+    "bytes": 37318876722,
+    "etag": "\"02c88a8a69b9b7a799150f80192b345e-7\"",
+    "articles": 5903530,
+    "background_article_count": 15000
+  },
+  "retriever": {
+    "repo": "Shitao/RetroMAE_MSMARCO_distill",
+    "revision": "a60b7d0ba401b1d50ffee16c3a89fad923f7fc28",
+    "local_dir": "model/RetroMAE_MSMARCO_distill",
+    "max_length": 256,
+    "batch_size": 32,
+    "pooling": "cls",
+    "similarity": "dot"
+  },
+  "reranker": {
+    "repo": "naver/trecdl22-crossencoder-debertav3",
+    "revision": "24f6a61d11707432d5780a1d5cf4e3af25cfaddb",
+    "local_dir": "model/trecdl22-crossencoder-debertav3",
+    "max_length": 256,
+    "batch_size": 32,
+    "padding": "max_length",
+    "truncation": "only_second"
+  },
+  "retrieve_k": 50,
+  "evidence_k": 5,
+  "words_per_passage": 100
+}

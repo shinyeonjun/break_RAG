@@ -1,0 +1,10 @@
+{
+  "reference_length_run": "results/length_20261004T105521_c4d2d4a4",
+  "descriptor_target_tokens": 720,
+  "questions_per_task": 20,
+  "repeats": 1,
+  "seed": 20261004,
+  "max_llm_calls": 500,
+  "max_jev_http_calls": 1500,
+  "scope": "Freeze the lowest-cost feasible observed Jev development condition, reuse its exact descriptions, and compare A/B/C/D on previously unevaluated questions. D receives the same policy as an untuned transfer condition."
+}

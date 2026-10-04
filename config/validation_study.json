@@ -1,0 +1,19 @@
+{
+  "source_run": "results/20261004T052947_1e5333aa",
+  "corpus_size": 2000,
+  "questions_per_task": {"dev": 20, "eval": 50},
+  "repeats": 1,
+  "run_dev": true,
+  "run_eval": true,
+  "variants": {
+    "C_baseline": {},
+    "C_top2": {"selection_mode": "top_k", "selection_k": 2},
+    "C_top3": {"selection_mode": "top_k", "selection_k": 3},
+    "C_dedup": {"reuse_coverage": true}
+  },
+  "selection_rule": "highest development answer_em, then complete_evidence_hit, then lowest API cost",
+  "evaluation_policy": "Freeze the selected individual C variant before reading evaluation labels. No untested combinations.",
+  "max_c_calls_per_question": 32,
+  "max_llm_calls": 1000,
+  "save_raw_logs": true
+}

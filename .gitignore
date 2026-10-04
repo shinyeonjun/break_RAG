@@ -1,0 +1,54 @@
+# Local environments and downloaded dependencies
+/venv/
+/.venv/
+/env/
+/vendor/
+
+# Model weights, datasets, generated indexes, experiment outputs and logs
+/model/
+/models/
+/data/
+/results/
+/checkpoints/
+/artifacts/
+/outputs/
+/runs/
+/logs/
+/.cache/
+
+# Credentials: only the empty template belongs in Git
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+.ipython/
+
+# Build, editor and operating-system files
+/build/
+/dist/
+.vscode/
+.idea/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,18 @@
+{
+  "version": "source-audit-20261004-v1",
+  "legacy_metrics": "Benchmark Exact Match and F1 are preserved unchanged.",
+  "joint_answers": {
+    "nq:3329845022275460004": {
+      "components": ["English language", "history", "traditional and national symbols", ["Australia's values", "Australia 's values", "Australian values"]],
+      "basis": "The question explicitly asks for FOUR aspects. The four reference strings describe jointly required parts, rather than interchangeable aliases.",
+      "source_passage_ids": ["12777903:0", "12777903:1"]
+    }
+  },
+  "gold_semantics_needing_review": {
+    "nq:5640170271919683440": "The annotated France mention is about earlier wars and does not establish the winner at Borodino.",
+    "nq:1583312678588156706": "The annotated 11th-season ranking does not explicitly establish total seasons.",
+    "nq:-4279427683359019030": "The annotated cast-name mention does not explicitly connect the actor to the requested mother role."
+  },
+  "exclusions": [],
+  "note": "No data or benchmark labels are deleted or silently replaced. Component matching and citation presence are supplemental proxies, not semantic entailment verification."
+}

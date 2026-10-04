@@ -1,0 +1,38 @@
+{
+  "id": "knowledge",
+  "title": "Knowledge",
+  "description": "An initial general-purpose Wikipedia taxonomy with manually authored topic definitions. Preparation code consumes no questions or labels. Edit and freeze before evaluation; disclose taxonomy authoring effort.",
+  "children": [
+    {"id": "people", "title": "People and organizations", "description": "People, their careers, and institutions.", "children": [
+      {"id": "biographies", "title": "People", "description": "Personal identity, lives, careers, achievements, and relationships."},
+      {"id": "organizations", "title": "Organizations", "description": "Companies, institutions, schools, associations, and their operations."}
+    ]},
+    {"id": "places", "title": "Places and geography", "description": "Locations, natural geography, and political territories.", "children": [
+      {"id": "natural_geography", "title": "Natural geography", "description": "Rivers, mountains, islands, geology, and natural features."},
+      {"id": "settlements", "title": "Territories and settlements", "description": "Countries, regions, towns, cities, borders, and built places."}
+    ]},
+    {"id": "media", "title": "Arts and media", "description": "Creative works, entertainment, and publications.", "children": [
+      {"id": "screen_media", "title": "Film and television", "description": "Films, television shows, seasons, episodes, casts, and broadcast histories."},
+      {"id": "arts_publications", "title": "Other arts and publications", "description": "Books, literature, music, art, performance, newspapers, and other publications."}
+    ]},
+    {"id": "games_sport", "title": "Games and sport", "description": "Games, rules, competitions, and sporting activities.", "children": [
+      {"id": "games", "title": "Games", "description": "Board games, video games, toys, game designers, rules, and publication dates."},
+      {"id": "sport", "title": "Sport", "description": "Sports, teams, athletes, competitions, results, and sporting records."}
+    ]},
+    {"id": "society", "title": "History and society", "description": "Historical events, public affairs, and social practices.", "children": [
+      {"id": "history", "title": "History", "description": "Historical events, periods, conflicts, archaeology, and historical developments."},
+      {"id": "social_systems", "title": "Social systems", "description": "Politics, law, religion, economics, education, languages, and social customs."}
+    ]},
+    {"id": "science", "title": "Science and nature", "description": "Scientific knowledge, living things, and health.", "children": [
+      {"id": "life_health", "title": "Life and health", "description": "Organisms, biology, anatomy, medicine, diseases, and health."},
+      {"id": "physical_sciences", "title": "Physical sciences", "description": "Physics, chemistry, mathematics, astronomy, and scientific principles."}
+    ]},
+    {"id": "technology", "title": "Technology and engineering", "description": "Computing, engineered systems, and practical technology.", "children": [
+      {"id": "computing", "title": "Computing", "description": "Software, computing hardware, programming, networks, and information systems."},
+      {"id": "engineering", "title": "Other engineering", "description": "Transport, machines, buildings, materials, manufacturing, and industrial processes."}
+    ]},
+    {"id": "other", "title": "Other knowledge", "description": "Material not represented by the other topic descriptions.", "children": [
+      {"id": "miscellaneous", "title": "Miscellaneous", "description": "Topics that do not fit the other available categories."}
+    ]}
+  ]
+}
